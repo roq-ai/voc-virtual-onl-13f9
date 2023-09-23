@@ -1,0 +1,1972 @@
+[
+  {
+    "role": [
+      {
+        "id": "a46f621e-fe28-482b-8f98-8fe6ea53a0df",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T13:38:22.089Z",
+        "updated_at": "2023-09-23T15:21:55.889Z"
+      },
+      {
+        "id": "0f3809a3-8915-499a-9686-f49758c2d689",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T11:45:16.121Z",
+        "updated_at": "2023-09-23T01:27:58.256Z"
+      },
+      {
+        "id": "15e1c8a8-7b1c-484b-88dc-dd5dab3cc8f1",
+        "role_name": "employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T03:39:09.617Z",
+        "updated_at": "2023-09-22T18:59:46.060Z"
+      },
+      {
+        "id": "63f704fd-39e8-405b-bdbd-acaba0c3dc0f",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-22T22:37:36.072Z",
+        "updated_at": "2023-09-23T10:36:01.726Z"
+      },
+      {
+        "id": "38aebf86-4f9c-4aea-9db4-d4cb5bd25a7b",
+        "role_name": "assistant",
+        "description": "Assistant role",
+        "created_at": "2023-09-22T20:03:08.091Z",
+        "updated_at": "2023-09-23T04:31:18.517Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "01995036-6322-4aec-abfb-c888c332ae27",
+        "created_at": "2023-09-23T12:06:46.856Z",
+        "updated_at": "2023-09-23T06:22:36.390Z",
+        "role_id": "38aebf86-4f9c-4aea-9db4-d4cb5bd25a7b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "225f8bb8-6f2c-4d4e-8b83-a6212d66df14",
+        "created_at": "2023-09-23T15:16:54.968Z",
+        "updated_at": "2023-09-23T17:06:50.988Z",
+        "role_id": "0f3809a3-8915-499a-9686-f49758c2d689",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aaf0f780-646d-4bbe-9d1d-87a1e84b060d",
+        "created_at": "2023-09-23T17:00:56.743Z",
+        "updated_at": "2023-09-23T10:25:45.635Z",
+        "role_id": "15e1c8a8-7b1c-484b-88dc-dd5dab3cc8f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36fe3c72-b90e-48c4-8751-3c16c035c340",
+        "created_at": "2023-09-23T04:03:15.613Z",
+        "updated_at": "2023-09-23T10:48:01.948Z",
+        "role_id": "15e1c8a8-7b1c-484b-88dc-dd5dab3cc8f1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "474404eb-9ef0-4a30-b409-a540b2d12d63",
+        "created_at": "2023-09-22T23:59:22.145Z",
+        "updated_at": "2023-09-23T01:06:55.312Z",
+        "role_id": "63f704fd-39e8-405b-bdbd-acaba0c3dc0f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "e6c63dce-dec0-4556-a77b-61804ef3c701",
+        "message": "Hello",
+        "created_at": "2023-09-23T17:49:36.396Z",
+        "updated_at": "2023-09-23T02:40:10.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "457e5902-8375-489b-af63-7249841e7737",
+        "message": "How are you?",
+        "created_at": "2023-09-22T23:13:03.974Z",
+        "updated_at": "2023-09-22T19:28:19.314Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4886d548-1a4e-418f-a291-08ca0d15f116",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T14:17:18.893Z",
+        "updated_at": "2023-09-23T00:24:42.014Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3f0e517-5226-4c8b-ac5d-87ab99e378e4",
+        "message": "What's your name?",
+        "created_at": "2023-09-23T08:11:30.942Z",
+        "updated_at": "2023-09-23T02:03:01.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d93715b2-e5c7-45ea-940e-c7df5ea9f2f5",
+        "message": "Goodbye",
+        "created_at": "2023-09-23T15:18:48.283Z",
+        "updated_at": "2023-09-23T05:18:29.639Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "bf02d483-5ef9-4d07-8040-9d020cac5a3e",
+        "log_message": "Chat log message 1",
+        "created_at": "2023-09-22T23:38:55.208Z",
+        "updated_at": "2023-09-23T03:08:06.444Z",
+        "chat_id": "e6c63dce-dec0-4556-a77b-61804ef3c701"
+      },
+      {
+        "id": "f5c9dc33-dc36-404a-8f51-67f713168f4a",
+        "log_message": "Chat log message 2",
+        "created_at": "2023-09-23T02:44:47.763Z",
+        "updated_at": "2023-09-23T03:53:47.433Z",
+        "chat_id": "c3f0e517-5226-4c8b-ac5d-87ab99e378e4"
+      },
+      {
+        "id": "c4f47581-8a47-40df-8a83-1dc9a5633cfc",
+        "log_message": "Chat log message 3",
+        "created_at": "2023-09-22T19:05:08.962Z",
+        "updated_at": "2023-09-23T10:12:26.785Z",
+        "chat_id": "d93715b2-e5c7-45ea-940e-c7df5ea9f2f5"
+      },
+      {
+        "id": "e87d37b8-8a94-4696-8848-103cfb1372d5",
+        "log_message": "Chat log message 4",
+        "created_at": "2023-09-23T09:22:44.348Z",
+        "updated_at": "2023-09-23T08:18:57.259Z",
+        "chat_id": "d93715b2-e5c7-45ea-940e-c7df5ea9f2f5"
+      },
+      {
+        "id": "b4192bc5-1118-4bc1-97e2-a46b963332bd",
+        "log_message": "Chat log message 5",
+        "created_at": "2023-09-22T21:36:18.234Z",
+        "updated_at": "2023-09-23T07:23:58.430Z",
+        "chat_id": "e6c63dce-dec0-4556-a77b-61804ef3c701"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19f4281d-b151-42f5-a0c9-3171d72866d9",
+        "email": "Hosea_Weber30@roq.tech",
+        "firstName": "Tiara",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1018.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbfe2da6-8a13-4b9d-a00a-2c3edd036bb3",
+        "email": "Delbert86@roq.tech",
+        "firstName": "Jared",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26317056",
+        "tenantId": null
+      },
+      {
+        "reference": "072e45b3-edad-4307-a714-4871206a9b22",
+        "email": "Edison.Moen8@roq.tech",
+        "firstName": "Flo",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2310458",
+        "tenantId": null
+      },
+      {
+        "reference": "0db68b21-8ec5-4824-9a2b-da155da6e66e",
+        "email": "Alvera35@roq.tech",
+        "firstName": "Johnathon",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56975055",
+        "tenantId": null
+      },
+      {
+        "reference": "991f8186-af86-42b3-8461-e4f938d317de",
+        "email": "Ashly_OConner47@roq.tech",
+        "firstName": "Bertram",
+        "lastName": "Cremin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/540.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "3f5d656f-b48a-479e-ab6e-fa0f1afee36b",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T03:56:30.224Z",
+        "updated_at": "2023-09-23T14:46:18.785Z"
+      },
+      {
+        "id": "665069aa-fd69-46c9-b8d7-09575cdbd2fb",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T04:43:53.859Z",
+        "updated_at": "2023-09-23T12:58:26.261Z"
+      },
+      {
+        "id": "059e375f-7a12-42ff-a3b0-4feae5c36144",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T14:41:01.586Z",
+        "updated_at": "2023-09-23T06:40:04.633Z"
+      },
+      {
+        "id": "5ee1af4e-d893-4a80-a488-e1b6ade68d38",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T17:24:54.487Z",
+        "updated_at": "2023-09-23T06:17:33.583Z"
+      },
+      {
+        "id": "969f3271-e64c-40b2-a768-43c6772f77c4",
+        "role_name": "Team Lead",
+        "description": "Team Lead role",
+        "created_at": "2023-09-23T08:42:14.723Z",
+        "updated_at": "2023-09-22T23:09:47.013Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "6a7e7b35-4408-4754-95ba-c1528bb7b165",
+        "created_at": "2023-09-23T14:46:12.309Z",
+        "updated_at": "2023-09-22T21:54:57.435Z",
+        "role_id": "969f3271-e64c-40b2-a768-43c6772f77c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e136bd6b-14f3-4246-a5f2-47a262a80a8f",
+        "created_at": "2023-09-23T17:05:36.016Z",
+        "updated_at": "2023-09-23T04:07:27.324Z",
+        "role_id": "969f3271-e64c-40b2-a768-43c6772f77c4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3cafad4-7f72-4434-923d-ece9d2787bbc",
+        "created_at": "2023-09-23T07:27:22.598Z",
+        "updated_at": "2023-09-23T03:36:42.361Z",
+        "role_id": "059e375f-7a12-42ff-a3b0-4feae5c36144",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "019933c2-e1bb-4a6a-bc92-baf689e68071",
+        "created_at": "2023-09-23T13:52:05.415Z",
+        "updated_at": "2023-09-23T15:02:33.776Z",
+        "role_id": "059e375f-7a12-42ff-a3b0-4feae5c36144",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7b056dc-e423-4712-84de-7d34d336969e",
+        "created_at": "2023-09-23T05:22:35.098Z",
+        "updated_at": "2023-09-22T21:38:36.981Z",
+        "role_id": "5ee1af4e-d893-4a80-a488-e1b6ade68d38",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "ca8dcd3f-73dd-49d3-89f9-fd1eadfcfa3f",
+        "message": "Hello",
+        "created_at": "2023-09-23T17:17:07.474Z",
+        "updated_at": "2023-09-22T23:57:28.789Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74e91ae3-eccc-4bc8-a807-e41faabea063",
+        "message": "How are you?",
+        "created_at": "2023-09-23T13:47:52.548Z",
+        "updated_at": "2023-09-23T00:49:09.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9b47dce-8c9c-4034-8f87-c36d231ca569",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T11:02:35.349Z",
+        "updated_at": "2023-09-23T17:04:55.005Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e8722c0-1891-4e63-956c-08e8d849468b",
+        "message": "What's your name?",
+        "created_at": "2023-09-23T05:35:24.822Z",
+        "updated_at": "2023-09-23T00:46:46.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ae23010-88fd-4f91-ab1d-b3bdd5ecef22",
+        "message": "Where are you from?",
+        "created_at": "2023-09-23T09:34:40.380Z",
+        "updated_at": "2023-09-23T17:50:47.532Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "f39a424b-a527-48ff-95b6-5aeff6e9e734",
+        "log_message": "Message 1",
+        "created_at": "2023-09-23T06:56:17.296Z",
+        "updated_at": "2023-09-23T07:27:52.007Z",
+        "chat_id": "0e8722c0-1891-4e63-956c-08e8d849468b"
+      },
+      {
+        "id": "44de5daf-04dd-4997-8cf5-9d21353b11bc",
+        "log_message": "Message 2",
+        "created_at": "2023-09-23T11:09:46.885Z",
+        "updated_at": "2023-09-23T02:15:42.389Z",
+        "chat_id": "0e8722c0-1891-4e63-956c-08e8d849468b"
+      },
+      {
+        "id": "d06c540b-d724-46ee-9d93-e0343abaa61d",
+        "log_message": "Message 3",
+        "created_at": "2023-09-23T17:29:58.035Z",
+        "updated_at": "2023-09-23T00:39:30.917Z",
+        "chat_id": "4ae23010-88fd-4f91-ab1d-b3bdd5ecef22"
+      },
+      {
+        "id": "4dee4a16-5ca3-490f-b0d8-77c6d9f5b4fa",
+        "log_message": "Message 4",
+        "created_at": "2023-09-23T11:02:22.150Z",
+        "updated_at": "2023-09-23T02:08:45.007Z",
+        "chat_id": "0e8722c0-1891-4e63-956c-08e8d849468b"
+      },
+      {
+        "id": "b480d9f1-8d6a-4bc7-9078-e5daab9fce22",
+        "log_message": "Message 5",
+        "created_at": "2023-09-22T23:32:08.566Z",
+        "updated_at": "2023-09-23T05:35:42.899Z",
+        "chat_id": "0e8722c0-1891-4e63-956c-08e8d849468b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "76eed9fb-ac9a-4172-aea6-73d6e1c6d35c",
+        "email": "Eva98@roq.tech",
+        "firstName": "Jordon",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4068d4ab-cb4b-4e36-a3f1-1bd30dd3c9a0",
+        "email": "Dawson84@roq.tech",
+        "firstName": "Hermann",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1141.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7dc7beb-2162-4b57-89a8-e2b14232703f",
+        "email": "Jerod_Treutel94@roq.tech",
+        "firstName": "Julia",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbefe21b-88ce-4def-a520-91122586864a",
+        "email": "Kattie_Oberbrunner@roq.tech",
+        "firstName": "Ford",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78079728",
+        "tenantId": null
+      },
+      {
+        "reference": "150040ab-8eb0-44a5-9a7c-470dec4febb5",
+        "email": "Stuart.Towne0@roq.tech",
+        "firstName": "Murl",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40106760",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "3fa9dbfd-1317-42e0-a606-77322a4a0e40",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T05:39:45.450Z",
+        "updated_at": "2023-09-22T21:23:29.350Z"
+      },
+      {
+        "id": "b6597be6-0553-47b5-93ad-3cee5ff9f0f9",
+        "role_name": "user",
+        "description": "Regular user role",
+        "created_at": "2023-09-23T07:44:42.259Z",
+        "updated_at": "2023-09-23T13:24:03.420Z"
+      },
+      {
+        "id": "2226fbff-252c-43b4-abdd-2aaf420d3c9e",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-22T19:45:08.451Z",
+        "updated_at": "2023-09-22T19:11:25.401Z"
+      },
+      {
+        "id": "dad9ce3b-e3ae-4e43-a879-9388c69ecd42",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T10:02:42.486Z",
+        "updated_at": "2023-09-23T13:52:45.205Z"
+      },
+      {
+        "id": "0c77c00c-95f4-4b55-9195-92b55cafb7c9",
+        "role_name": "employee",
+        "description": "Employee role",
+        "created_at": "2023-09-22T23:39:14.006Z",
+        "updated_at": "2023-09-23T13:44:27.988Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "3c7b4332-8b14-40bc-98e5-dd7acbc31b02",
+        "created_at": "2023-09-23T03:48:38.662Z",
+        "updated_at": "2023-09-22T20:55:23.206Z",
+        "role_id": "b6597be6-0553-47b5-93ad-3cee5ff9f0f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97ace832-ffdc-4625-9c77-b05df7694253",
+        "created_at": "2023-09-23T15:25:39.270Z",
+        "updated_at": "2023-09-22T23:53:32.439Z",
+        "role_id": "dad9ce3b-e3ae-4e43-a879-9388c69ecd42",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41455f76-7457-4edf-8eb6-124d8df6ecf0",
+        "created_at": "2023-09-23T18:06:29.709Z",
+        "updated_at": "2023-09-23T03:24:40.528Z",
+        "role_id": "b6597be6-0553-47b5-93ad-3cee5ff9f0f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef2f4654-5753-4964-9c9f-25b2804e0eec",
+        "created_at": "2023-09-23T13:43:48.311Z",
+        "updated_at": "2023-09-22T22:57:55.162Z",
+        "role_id": "0c77c00c-95f4-4b55-9195-92b55cafb7c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e26b558-7714-4ef4-a1f8-ffb97cbad796",
+        "created_at": "2023-09-23T18:24:06.108Z",
+        "updated_at": "2023-09-23T15:26:14.871Z",
+        "role_id": "b6597be6-0553-47b5-93ad-3cee5ff9f0f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "87b95d54-8fa4-44ec-aa95-cac608258742",
+        "message": "Hello",
+        "created_at": "2023-09-23T08:42:44.423Z",
+        "updated_at": "2023-09-23T17:36:25.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfe60380-8173-495f-a8a8-22a9a3d67227",
+        "message": "How are you?",
+        "created_at": "2023-09-23T10:26:23.847Z",
+        "updated_at": "2023-09-23T10:04:33.598Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35432edb-5c61-4be7-9af1-c9837ccaa38c",
+        "message": "What's up?",
+        "created_at": "2023-09-22T21:29:12.076Z",
+        "updated_at": "2023-09-23T13:45:48.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1932aac3-cdc1-4e60-9ce5-40fce79fc81f",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T02:40:46.571Z",
+        "updated_at": "2023-09-23T00:19:53.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "78baf4a3-7ef2-4460-b554-ffb53f295741",
+        "message": "Have a great day!",
+        "created_at": "2023-09-23T03:34:43.197Z",
+        "updated_at": "2023-09-22T18:43:04.396Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "0549e92a-57bf-41d3-9f31-51b636b62c19",
+        "log_message": "Message logged successfully",
+        "created_at": "2023-09-23T06:36:01.866Z",
+        "updated_at": "2023-09-23T07:32:42.730Z",
+        "chat_id": "cfe60380-8173-495f-a8a8-22a9a3d67227"
+      },
+      {
+        "id": "5ac536dc-d12a-4bd6-81c2-7c74e3577eed",
+        "log_message": "Error in logging message",
+        "created_at": "2023-09-23T15:36:55.849Z",
+        "updated_at": "2023-09-23T10:58:32.680Z",
+        "chat_id": "1932aac3-cdc1-4e60-9ce5-40fce79fc81f"
+      },
+      {
+        "id": "037f39e0-7ebd-4a69-831f-2ff545e3f995",
+        "log_message": "Message received",
+        "created_at": "2023-09-23T17:27:16.236Z",
+        "updated_at": "2023-09-23T03:32:53.954Z",
+        "chat_id": "78baf4a3-7ef2-4460-b554-ffb53f295741"
+      },
+      {
+        "id": "17745944-7af2-4223-b29d-e5b7b3637b20",
+        "log_message": "Message sent",
+        "created_at": "2023-09-23T12:55:55.146Z",
+        "updated_at": "2023-09-23T16:31:56.510Z",
+        "chat_id": "35432edb-5c61-4be7-9af1-c9837ccaa38c"
+      },
+      {
+        "id": "5eed8378-b039-4d56-82da-e0629be88921",
+        "log_message": "Message deleted",
+        "created_at": "2023-09-23T04:40:22.801Z",
+        "updated_at": "2023-09-22T22:52:20.099Z",
+        "chat_id": "cfe60380-8173-495f-a8a8-22a9a3d67227"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "01b68714-3f33-4dad-a9e5-07571c37ffea",
+        "email": "Braulio14@roq.tech",
+        "firstName": "Ronny",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84537471",
+        "tenantId": null
+      },
+      {
+        "reference": "131764fe-7440-48a3-baeb-0dfa5998a06f",
+        "email": "Shakira_Stehr@roq.tech",
+        "firstName": "Dorian",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/806.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa448771-df2d-407d-bfd1-3855231141e7",
+        "email": "Ole_Lynch@roq.tech",
+        "firstName": "Claude",
+        "lastName": "Satterfield",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7f7785d5-9a0b-4a20-b344-8bba7a0b6fde",
+        "email": "Robb75@roq.tech",
+        "firstName": "Evan",
+        "lastName": "Spinka",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70901136",
+        "tenantId": null
+      },
+      {
+        "reference": "82c600de-b268-41e1-a28d-c2d74b1e4397",
+        "email": "Alison68@roq.tech",
+        "firstName": "Kitty",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92048623",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "217ccfc6-88fa-4676-8b65-75a799c246d6",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-22T19:47:34.650Z",
+        "updated_at": "2023-09-23T08:52:26.667Z"
+      },
+      {
+        "id": "0df0ac06-3847-4269-9d94-43a611f69346",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T18:28:41.028Z",
+        "updated_at": "2023-09-23T13:49:44.681Z"
+      },
+      {
+        "id": "f71afd9b-2860-49bd-8307-48e00582630c",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T08:01:11.062Z",
+        "updated_at": "2023-09-23T02:15:56.783Z"
+      },
+      {
+        "id": "e02821ff-7669-40d6-9ea3-9964bb1fe87d",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T11:05:51.702Z",
+        "updated_at": "2023-09-23T14:08:34.767Z"
+      },
+      {
+        "id": "023c98b5-6228-41fd-9893-55742dd88876",
+        "role_name": "Analyst",
+        "description": "Analyst role",
+        "created_at": "2023-09-23T07:18:08.358Z",
+        "updated_at": "2023-09-22T19:49:23.501Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "6ceaedd4-096f-4521-8912-9841f4b8213c",
+        "created_at": "2023-09-23T14:14:25.012Z",
+        "updated_at": "2023-09-23T00:27:12.647Z",
+        "role_id": "e02821ff-7669-40d6-9ea3-9964bb1fe87d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a1ed934-ef85-469d-84c6-cfe08d34f3a0",
+        "created_at": "2023-09-23T07:21:32.072Z",
+        "updated_at": "2023-09-22T22:00:47.471Z",
+        "role_id": "0df0ac06-3847-4269-9d94-43a611f69346",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8059c9a3-2fcd-4d6e-a1e0-61159ae9960d",
+        "created_at": "2023-09-22T18:49:01.763Z",
+        "updated_at": "2023-09-22T22:31:23.774Z",
+        "role_id": "f71afd9b-2860-49bd-8307-48e00582630c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c572f14-587d-48ea-bb1c-27d00d522ef5",
+        "created_at": "2023-09-22T22:41:53.159Z",
+        "updated_at": "2023-09-23T10:32:19.427Z",
+        "role_id": "f71afd9b-2860-49bd-8307-48e00582630c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "266fb190-5cce-4f76-9456-e9217edc28bd",
+        "created_at": "2023-09-23T03:36:13.223Z",
+        "updated_at": "2023-09-23T13:20:53.683Z",
+        "role_id": "e02821ff-7669-40d6-9ea3-9964bb1fe87d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "528066fd-6ba2-4b5a-9b3d-2416bc307d4e",
+        "message": "Hello",
+        "created_at": "2023-09-23T06:40:36.580Z",
+        "updated_at": "2023-09-22T22:19:59.507Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aec8de59-5309-435e-b190-42ee1dcc6418",
+        "message": "How are you?",
+        "created_at": "2023-09-23T14:02:38.321Z",
+        "updated_at": "2023-09-23T16:05:53.830Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15dd072a-9606-4cc9-a2ca-920d46afb9d2",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T10:58:45.525Z",
+        "updated_at": "2023-09-23T06:12:48.396Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57f2ed85-8f44-444e-ab99-888a2e3463f5",
+        "message": "What's up?",
+        "created_at": "2023-09-23T01:31:01.807Z",
+        "updated_at": "2023-09-23T17:26:02.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acde2369-c23a-459a-9eea-4581b960648d",
+        "message": "Have a great day",
+        "created_at": "2023-09-23T00:59:07.577Z",
+        "updated_at": "2023-09-23T02:08:22.399Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "fa37314a-60d2-48b9-bf12-b189a2914621",
+        "log_message": "Log message 1",
+        "created_at": "2023-09-23T11:27:52.731Z",
+        "updated_at": "2023-09-22T21:02:58.234Z",
+        "chat_id": "57f2ed85-8f44-444e-ab99-888a2e3463f5"
+      },
+      {
+        "id": "9dee09ae-9df9-4638-a45b-07b74da959e4",
+        "log_message": "Log message 2",
+        "created_at": "2023-09-22T21:49:11.761Z",
+        "updated_at": "2023-09-23T09:08:34.768Z",
+        "chat_id": "15dd072a-9606-4cc9-a2ca-920d46afb9d2"
+      },
+      {
+        "id": "672064fc-15fe-4563-a1d0-d974b04e6d4d",
+        "log_message": "Log message 3",
+        "created_at": "2023-09-23T17:51:26.697Z",
+        "updated_at": "2023-09-23T02:03:19.270Z",
+        "chat_id": "528066fd-6ba2-4b5a-9b3d-2416bc307d4e"
+      },
+      {
+        "id": "a77c8a76-3f16-45e1-97d8-81380f45ab39",
+        "log_message": "Log message 4",
+        "created_at": "2023-09-22T21:11:36.346Z",
+        "updated_at": "2023-09-23T07:57:13.227Z",
+        "chat_id": "aec8de59-5309-435e-b190-42ee1dcc6418"
+      },
+      {
+        "id": "0ebe30e8-0929-44ef-b01b-0676457a32fd",
+        "log_message": "Log message 5",
+        "created_at": "2023-09-22T20:29:41.023Z",
+        "updated_at": "2023-09-23T06:28:56.177Z",
+        "chat_id": "acde2369-c23a-459a-9eea-4581b960648d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bcba6817-f428-4833-a780-d09be57ce27a",
+        "email": "Berenice_Stanton@roq.tech",
+        "firstName": "Claudia",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/465.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dab08d2f-5ba9-4c8a-8e8a-ed7681082725",
+        "email": "Dayana_Haag@roq.tech",
+        "firstName": "Christian",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/692.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8ef65928-1a1c-4478-aad5-b3f5e8d11920",
+        "email": "Carter.Hodkiewicz23@roq.tech",
+        "firstName": "Leopold",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "47fb90ef-db16-4829-acaf-fb990dc226ec",
+        "email": "Ford.Greenfelder79@roq.tech",
+        "firstName": "Rickey",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72801434",
+        "tenantId": null
+      },
+      {
+        "reference": "b4d22d9e-82f4-4d9a-80e8-93cb55bc2f97",
+        "email": "Kaleb_Boehm17@roq.tech",
+        "firstName": "Rogelio",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85176714",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "f62d8252-8645-4f19-bc08-456a496438ec",
+        "role_name": "Admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T15:43:21.917Z",
+        "updated_at": "2023-09-23T06:19:13.099Z"
+      },
+      {
+        "id": "9cbe650e-f4a2-4f7d-a4ed-c0e5a3c43e4a",
+        "role_name": "Manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T05:37:07.518Z",
+        "updated_at": "2023-09-23T10:04:15.713Z"
+      },
+      {
+        "id": "b07347b7-9a8c-4c14-8b4c-3b62be862cfc",
+        "role_name": "Supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T17:40:31.157Z",
+        "updated_at": "2023-09-23T11:12:57.110Z"
+      },
+      {
+        "id": "5ceb173d-76cf-4084-a199-a681485907ed",
+        "role_name": "Employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T14:56:29.661Z",
+        "updated_at": "2023-09-23T06:25:50.495Z"
+      },
+      {
+        "id": "af990309-b87b-4d94-bd6c-153584fd11b0",
+        "role_name": "Guest",
+        "description": "Guest role",
+        "created_at": "2023-09-23T03:41:21.106Z",
+        "updated_at": "2023-09-23T10:18:33.734Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "07b34f3f-3853-4ca6-b382-ca8f5148105a",
+        "created_at": "2023-09-23T11:32:30.514Z",
+        "updated_at": "2023-09-23T10:23:23.163Z",
+        "role_id": "9cbe650e-f4a2-4f7d-a4ed-c0e5a3c43e4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd663730-1bb3-44c2-823d-dfec8d486f6f",
+        "created_at": "2023-09-23T14:49:07.304Z",
+        "updated_at": "2023-09-23T03:04:49.866Z",
+        "role_id": "f62d8252-8645-4f19-bc08-456a496438ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "037b62b2-a699-49bf-97a5-1cd0b8ca7330",
+        "created_at": "2023-09-23T08:21:22.064Z",
+        "updated_at": "2023-09-23T00:16:20.676Z",
+        "role_id": "9cbe650e-f4a2-4f7d-a4ed-c0e5a3c43e4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46e7d819-b3a9-485b-ac33-caeb92af1410",
+        "created_at": "2023-09-23T08:23:42.653Z",
+        "updated_at": "2023-09-23T00:40:41.331Z",
+        "role_id": "f62d8252-8645-4f19-bc08-456a496438ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e75c314-5da9-4277-b6d9-5dd79674f433",
+        "created_at": "2023-09-22T20:13:50.922Z",
+        "updated_at": "2023-09-23T05:16:59.947Z",
+        "role_id": "9cbe650e-f4a2-4f7d-a4ed-c0e5a3c43e4a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "e0f25a13-7cf1-4318-a2e7-be91fe198935",
+        "message": "Hello",
+        "created_at": "2023-09-23T10:05:59.718Z",
+        "updated_at": "2023-09-23T18:07:52.871Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08244b3a-4368-4264-9899-35ded6468574",
+        "message": "How are you?",
+        "created_at": "2023-09-23T08:39:02.114Z",
+        "updated_at": "2023-09-23T17:21:03.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a51467be-3058-4b0a-80b0-3f5800de3120",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T14:30:19.623Z",
+        "updated_at": "2023-09-23T07:29:18.997Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c954211-bd00-4713-b8f8-c10f64e88f94",
+        "message": "What's up?",
+        "created_at": "2023-09-22T19:26:36.472Z",
+        "updated_at": "2023-09-23T09:06:11.483Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a75e79c2-b9e4-494a-8a00-1b215d6c17a4",
+        "message": "Have a great day",
+        "created_at": "2023-09-23T07:42:30.408Z",
+        "updated_at": "2023-09-23T05:36:11.809Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "97eb757f-9d55-4221-946b-7e6daf5150c9",
+        "log_message": "Log message 1",
+        "created_at": "2023-09-23T09:14:34.459Z",
+        "updated_at": "2023-09-23T15:21:09.685Z",
+        "chat_id": "a51467be-3058-4b0a-80b0-3f5800de3120"
+      },
+      {
+        "id": "40946b78-2062-4ac2-9968-1d1f86a764fa",
+        "log_message": "Log message 2",
+        "created_at": "2023-09-23T10:09:16.598Z",
+        "updated_at": "2023-09-22T23:56:06.766Z",
+        "chat_id": "e0f25a13-7cf1-4318-a2e7-be91fe198935"
+      },
+      {
+        "id": "1954dc9a-bb95-424f-b114-ccad44c529fa",
+        "log_message": "Log message 3",
+        "created_at": "2023-09-23T02:36:24.020Z",
+        "updated_at": "2023-09-23T18:14:05.491Z",
+        "chat_id": "a51467be-3058-4b0a-80b0-3f5800de3120"
+      },
+      {
+        "id": "793c80c1-fddc-4e41-8981-f3168c7580be",
+        "log_message": "Log message 4",
+        "created_at": "2023-09-23T13:32:17.832Z",
+        "updated_at": "2023-09-23T12:57:11.423Z",
+        "chat_id": "2c954211-bd00-4713-b8f8-c10f64e88f94"
+      },
+      {
+        "id": "5cde361d-6261-4a59-b54b-639d55f95b76",
+        "log_message": "Log message 5",
+        "created_at": "2023-09-23T15:02:56.539Z",
+        "updated_at": "2023-09-22T23:26:55.280Z",
+        "chat_id": "2c954211-bd00-4713-b8f8-c10f64e88f94"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "cae4a5c9-0162-45b8-8d32-f894a7993493",
+        "email": "Sandra34@roq.tech",
+        "firstName": "Ottis",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/660.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "963e1404-14aa-453e-a191-7a759371850f",
+        "email": "Marlon60@roq.tech",
+        "firstName": "Alysa",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19663929",
+        "tenantId": null
+      },
+      {
+        "reference": "43eb488e-ef6e-4860-a935-b5480db76ccb",
+        "email": "Sheila4@roq.tech",
+        "firstName": "Rey",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "197e427d-8dae-45a0-b602-6daaf335c8c0",
+        "email": "Tracy.Hilpert88@roq.tech",
+        "firstName": "Jakayla",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/354.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1642693-ae91-4b6f-a8c0-0e3ead68c0f0",
+        "email": "Troy98@roq.tech",
+        "firstName": "Eula",
+        "lastName": "Fadel-Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96141105",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "54044f96-2ee4-48d5-96a6-7994dc274e0c",
+        "role_name": "admin",
+        "description": "Admin role with full access",
+        "created_at": "2023-09-23T01:13:14.197Z",
+        "updated_at": "2023-09-23T01:49:23.812Z"
+      },
+      {
+        "id": "db27e830-e441-4dd5-9eb4-2c1d27022b37",
+        "role_name": "manager",
+        "description": "Manager role with limited access",
+        "created_at": "2023-09-22T19:43:48.236Z",
+        "updated_at": "2023-09-23T01:57:13.214Z"
+      },
+      {
+        "id": "813fbacb-fcd8-4963-b43b-877927886427",
+        "role_name": "employee",
+        "description": "Employee role with basic access",
+        "created_at": "2023-09-23T12:17:24.647Z",
+        "updated_at": "2023-09-22T21:06:39.600Z"
+      },
+      {
+        "id": "66f7136c-d478-45d1-a733-74b5308fa482",
+        "role_name": "supervisor",
+        "description": "Supervisor role with supervisory responsibilities",
+        "created_at": "2023-09-22T18:46:08.473Z",
+        "updated_at": "2023-09-23T00:07:43.869Z"
+      },
+      {
+        "id": "e1c83543-891d-46f5-8f1a-c2d349409881",
+        "role_name": "team lead",
+        "description": "Team lead role with team management responsibilities",
+        "created_at": "2023-09-23T07:47:05.154Z",
+        "updated_at": "2023-09-22T22:39:44.388Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "89488b5d-4c8f-4fad-91ab-1229bcbe4371",
+        "created_at": "2023-09-23T14:09:21.119Z",
+        "updated_at": "2023-09-22T19:55:27.882Z",
+        "role_id": "db27e830-e441-4dd5-9eb4-2c1d27022b37",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "777f70a0-9c57-4a82-b0c7-0407e1c5907e",
+        "created_at": "2023-09-23T18:18:10.118Z",
+        "updated_at": "2023-09-23T17:02:46.817Z",
+        "role_id": "813fbacb-fcd8-4963-b43b-877927886427",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eda27441-5996-46ce-95ac-a2d156b6b407",
+        "created_at": "2023-09-23T15:26:05.876Z",
+        "updated_at": "2023-09-22T22:02:44.202Z",
+        "role_id": "813fbacb-fcd8-4963-b43b-877927886427",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd0fa7de-04b4-49bb-89d6-7244087fe6c3",
+        "created_at": "2023-09-23T06:42:27.104Z",
+        "updated_at": "2023-09-23T05:32:17.618Z",
+        "role_id": "db27e830-e441-4dd5-9eb4-2c1d27022b37",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad20cafd-4677-4ec0-88f4-a1ab8ed5dde5",
+        "created_at": "2023-09-23T13:53:24.539Z",
+        "updated_at": "2023-09-23T15:13:43.139Z",
+        "role_id": "66f7136c-d478-45d1-a733-74b5308fa482",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "05661aac-02c5-425b-a43d-1e05cf7d47d9",
+        "message": "Hello",
+        "created_at": "2023-09-22T18:50:07.696Z",
+        "updated_at": "2023-09-22T22:29:23.964Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21333071-48f2-4d03-8329-181480cf2f3e",
+        "message": "How are you?",
+        "created_at": "2023-09-23T10:57:27.678Z",
+        "updated_at": "2023-09-23T03:35:46.467Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4a248fe-7632-49e1-ad05-d5b048b21eae",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T17:59:15.035Z",
+        "updated_at": "2023-09-23T09:32:24.774Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0937963e-1631-482c-9b79-b91f84d3ba4a",
+        "message": "What's your name?",
+        "created_at": "2023-09-23T08:41:48.190Z",
+        "updated_at": "2023-09-23T05:36:48.000Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad02d38e-aab6-4182-934e-4a46c1dd6be0",
+        "message": "Have a great day!",
+        "created_at": "2023-09-23T07:58:44.215Z",
+        "updated_at": "2023-09-23T13:11:03.314Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "2e847c4d-7eb3-4f0f-ab74-ea935652fbe8",
+        "log_message": "Chat log message 1",
+        "created_at": "2023-09-23T03:19:45.273Z",
+        "updated_at": "2023-09-22T22:23:13.332Z",
+        "chat_id": "21333071-48f2-4d03-8329-181480cf2f3e"
+      },
+      {
+        "id": "4fce22e7-5bc3-4d94-914a-5269d8445b2a",
+        "log_message": "Chat log message 2",
+        "created_at": "2023-09-23T14:00:10.710Z",
+        "updated_at": "2023-09-23T11:48:34.517Z",
+        "chat_id": "0937963e-1631-482c-9b79-b91f84d3ba4a"
+      },
+      {
+        "id": "c020930d-7f9f-4940-866f-3da1e621c961",
+        "log_message": "Chat log message 3",
+        "created_at": "2023-09-23T17:39:45.432Z",
+        "updated_at": "2023-09-23T08:41:27.999Z",
+        "chat_id": "21333071-48f2-4d03-8329-181480cf2f3e"
+      },
+      {
+        "id": "7a966831-6031-4499-8ae7-4d6eaf3046cd",
+        "log_message": "Chat log message 4",
+        "created_at": "2023-09-23T13:38:21.289Z",
+        "updated_at": "2023-09-22T18:50:47.843Z",
+        "chat_id": "d4a248fe-7632-49e1-ad05-d5b048b21eae"
+      },
+      {
+        "id": "1f8c499b-bb63-4ba1-afb0-a4f4213afcc8",
+        "log_message": "Chat log message 5",
+        "created_at": "2023-09-22T21:33:46.002Z",
+        "updated_at": "2023-09-23T16:39:12.364Z",
+        "chat_id": "ad02d38e-aab6-4182-934e-4a46c1dd6be0"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7ad9f2bc-2834-4080-bb1d-7c078db7b4bd",
+        "email": "Maryjane.Cruickshank79@roq.tech",
+        "firstName": "Sonny",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1204.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a3e8f54c-c55f-444c-9872-bea2b30de62b",
+        "email": "Addison72@roq.tech",
+        "firstName": "Margarita",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43587958",
+        "tenantId": null
+      },
+      {
+        "reference": "47d5acc9-d7c6-4179-a604-251049a224af",
+        "email": "Alexane50@roq.tech",
+        "firstName": "Carolina",
+        "lastName": "Lockman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87251893",
+        "tenantId": null
+      },
+      {
+        "reference": "f0e6c475-5725-47ca-8e38-0e21c3bbc12b",
+        "email": "Xzavier.Von@roq.tech",
+        "firstName": "Jeramy",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84868379",
+        "tenantId": null
+      },
+      {
+        "reference": "45f2811b-20fb-4e77-9335-e1ff9d6812f2",
+        "email": "Dwight6@roq.tech",
+        "firstName": "Anderson",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/106.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "1ce07f9e-c6f2-4a8a-a44c-2c7fc6dd8f32",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T14:50:01.745Z",
+        "updated_at": "2023-09-22T20:03:37.832Z"
+      },
+      {
+        "id": "6f203dbd-a838-42d4-b112-60551c8966e1",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T10:19:59.508Z",
+        "updated_at": "2023-09-23T16:00:04.493Z"
+      },
+      {
+        "id": "0ca710c3-3ab8-4154-aab7-7949b17b7f94",
+        "role_name": "employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T08:34:25.397Z",
+        "updated_at": "2023-09-23T14:54:50.395Z"
+      },
+      {
+        "id": "762304bc-57a9-4623-bc5a-4f5e3a1de072",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T17:42:39.513Z",
+        "updated_at": "2023-09-23T12:07:35.385Z"
+      },
+      {
+        "id": "8ce602db-9dc1-4a67-b2df-84944cdad6a3",
+        "role_name": "analyst",
+        "description": "Analyst role",
+        "created_at": "2023-09-22T19:07:21.835Z",
+        "updated_at": "2023-09-23T18:11:21.989Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "636c60ba-97ea-4e06-9a9e-f7ea1a94e88c",
+        "created_at": "2023-09-22T19:40:41.475Z",
+        "updated_at": "2023-09-23T15:57:40.348Z",
+        "role_id": "762304bc-57a9-4623-bc5a-4f5e3a1de072",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f49729e-fad2-467e-83af-478c7950a338",
+        "created_at": "2023-09-23T08:29:30.309Z",
+        "updated_at": "2023-09-23T05:57:42.676Z",
+        "role_id": "6f203dbd-a838-42d4-b112-60551c8966e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3695699f-bffd-4218-a02e-f939909fdd84",
+        "created_at": "2023-09-23T11:44:51.149Z",
+        "updated_at": "2023-09-23T05:42:24.032Z",
+        "role_id": "762304bc-57a9-4623-bc5a-4f5e3a1de072",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acd72486-fbe5-4778-8aff-027359279776",
+        "created_at": "2023-09-23T13:10:31.710Z",
+        "updated_at": "2023-09-23T01:54:26.535Z",
+        "role_id": "6f203dbd-a838-42d4-b112-60551c8966e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4aece792-1445-49e5-bdb9-28b01dbeb955",
+        "created_at": "2023-09-23T08:18:34.794Z",
+        "updated_at": "2023-09-23T03:57:52.774Z",
+        "role_id": "1ce07f9e-c6f2-4a8a-a44c-2c7fc6dd8f32",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "a273b5fa-c924-45ce-929c-fed0a42cb08b",
+        "message": "Hello",
+        "created_at": "2023-09-23T08:53:22.380Z",
+        "updated_at": "2023-09-23T03:16:36.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f4a04e1-a5cd-4f16-97db-abe3b30e4348",
+        "message": "How are you?",
+        "created_at": "2023-09-23T02:27:23.095Z",
+        "updated_at": "2023-09-23T12:55:18.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "377d1662-de3e-4737-ac1e-c5811889e261",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T11:13:22.198Z",
+        "updated_at": "2023-09-22T21:33:08.109Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "719b117a-81ab-4624-aebf-8906983461b2",
+        "message": "What's up?",
+        "created_at": "2023-09-23T04:13:57.321Z",
+        "updated_at": "2023-09-22T19:49:25.652Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "286a0b47-6e33-43ec-b0e9-99914e420e57",
+        "message": "I'm here",
+        "created_at": "2023-09-23T09:17:44.866Z",
+        "updated_at": "2023-09-22T19:09:35.965Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "06bd8071-a693-452f-a718-dd864628a8e5",
+        "log_message": "Message received",
+        "created_at": "2023-09-23T09:26:02.173Z",
+        "updated_at": "2023-09-23T16:27:28.199Z",
+        "chat_id": "a273b5fa-c924-45ce-929c-fed0a42cb08b"
+      },
+      {
+        "id": "7e162b9a-0243-4502-ac8d-4e018b252351",
+        "log_message": "Message sent",
+        "created_at": "2023-09-23T04:57:01.583Z",
+        "updated_at": "2023-09-23T08:25:59.260Z",
+        "chat_id": "286a0b47-6e33-43ec-b0e9-99914e420e57"
+      },
+      {
+        "id": "5a99736f-b481-47c7-a027-c5970b32a78d",
+        "log_message": "Message deleted",
+        "created_at": "2023-09-23T11:57:17.438Z",
+        "updated_at": "2023-09-22T21:54:49.035Z",
+        "chat_id": "286a0b47-6e33-43ec-b0e9-99914e420e57"
+      },
+      {
+        "id": "e669a0a8-a51a-42eb-8032-cd9761d7e678",
+        "log_message": "Message edited",
+        "created_at": "2023-09-23T06:17:56.270Z",
+        "updated_at": "2023-09-23T10:00:54.542Z",
+        "chat_id": "286a0b47-6e33-43ec-b0e9-99914e420e57"
+      },
+      {
+        "id": "9031ffeb-3ac4-441a-a940-7e1e60f035eb",
+        "log_message": "Message forwarded",
+        "created_at": "2023-09-22T22:49:50.808Z",
+        "updated_at": "2023-09-23T17:21:00.961Z",
+        "chat_id": "377d1662-de3e-4737-ac1e-c5811889e261"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e2b1d252-ff7e-48c0-9716-6b3c2239603a",
+        "email": "Carter_Hilll91@roq.tech",
+        "firstName": "Kian",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44152263",
+        "tenantId": null
+      },
+      {
+        "reference": "c7aded98-1ab2-4003-8ca1-5f4d77d3cbba",
+        "email": "Terrill97@roq.tech",
+        "firstName": "Tressie",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7291304",
+        "tenantId": null
+      },
+      {
+        "reference": "bcae26c6-cb19-483e-8041-5e0417193c06",
+        "email": "Earline_Kuphal86@roq.tech",
+        "firstName": "Jamaal",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86079203",
+        "tenantId": null
+      },
+      {
+        "reference": "7054f418-6e31-4d4e-8654-2f9b1b32ade3",
+        "email": "Turner.Reichert-Fritsch90@roq.tech",
+        "firstName": "Addie",
+        "lastName": "Halvorson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51405902",
+        "tenantId": null
+      },
+      {
+        "reference": "c5f0d328-3864-4e3a-8b69-514f3ae7bba3",
+        "email": "Otis73@roq.tech",
+        "firstName": "Jacey",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22642105",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "48c94424-3d7f-4c5c-9766-a37c43d23dcb",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T18:25:45.600Z",
+        "updated_at": "2023-09-23T14:55:29.377Z"
+      },
+      {
+        "id": "7244d295-190b-4c7a-a854-e6e5c6d6f4d7",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T17:04:29.899Z",
+        "updated_at": "2023-09-23T16:41:49.299Z"
+      },
+      {
+        "id": "5fa07858-87b9-48a8-a0fa-6e4d0f0c9f20",
+        "role_name": "employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T14:22:17.727Z",
+        "updated_at": "2023-09-23T18:01:51.615Z"
+      },
+      {
+        "id": "fbbd0a12-7a40-4bf3-bf31-114f94cdb97d",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-22T20:35:26.568Z",
+        "updated_at": "2023-09-23T01:38:13.006Z"
+      },
+      {
+        "id": "155d6824-ba87-4236-9cd6-89e9b04c9277",
+        "role_name": "team_lead",
+        "description": "Team Lead role",
+        "created_at": "2023-09-22T21:15:15.752Z",
+        "updated_at": "2023-09-22T20:09:06.129Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "b2eb5b37-7164-401b-bf69-8193d8dadf38",
+        "created_at": "2023-09-23T17:26:28.769Z",
+        "updated_at": "2023-09-23T12:19:38.798Z",
+        "role_id": "155d6824-ba87-4236-9cd6-89e9b04c9277",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49473f86-4eab-4a95-a614-eb687b285660",
+        "created_at": "2023-09-23T18:33:21.078Z",
+        "updated_at": "2023-09-23T15:24:19.928Z",
+        "role_id": "fbbd0a12-7a40-4bf3-bf31-114f94cdb97d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f161bf8-fc0e-457f-8901-828309334bbc",
+        "created_at": "2023-09-23T06:24:38.311Z",
+        "updated_at": "2023-09-23T07:31:32.953Z",
+        "role_id": "5fa07858-87b9-48a8-a0fa-6e4d0f0c9f20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f3ed983-fe93-4df6-9d21-76d904d56db4",
+        "created_at": "2023-09-23T13:39:24.035Z",
+        "updated_at": "2023-09-23T05:39:04.621Z",
+        "role_id": "7244d295-190b-4c7a-a854-e6e5c6d6f4d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "38fc9024-bbed-4403-beb1-001b3e6ab760",
+        "created_at": "2023-09-23T10:45:00.453Z",
+        "updated_at": "2023-09-23T10:32:18.263Z",
+        "role_id": "48c94424-3d7f-4c5c-9766-a37c43d23dcb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "ad35c01c-babd-465b-a76d-75af3a70f66f",
+        "message": "Hello",
+        "created_at": "2023-09-23T04:36:48.085Z",
+        "updated_at": "2023-09-23T13:11:26.999Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c74df49-a756-4af1-aab8-5112834af5ce",
+        "message": "How are you?",
+        "created_at": "2023-09-22T18:48:39.877Z",
+        "updated_at": "2023-09-23T02:31:10.167Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59dc82f6-8c99-4f56-b6c3-7a5478f3b5bc",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-22T20:52:31.390Z",
+        "updated_at": "2023-09-22T18:40:26.826Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17db6e1a-1d06-4468-b8a1-0257eff2f8ce",
+        "message": "What's your favorite color?",
+        "created_at": "2023-09-22T22:12:23.109Z",
+        "updated_at": "2023-09-23T17:55:53.903Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8be7149e-c324-49e2-b966-29bba5df3fbe",
+        "message": "Have a great day!",
+        "created_at": "2023-09-23T08:30:13.044Z",
+        "updated_at": "2023-09-22T20:20:05.660Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "a03c9dbb-25e4-4725-aaaf-2cb753c84178",
+        "log_message": "Message logged successfully",
+        "created_at": "2023-09-23T08:43:38.790Z",
+        "updated_at": "2023-09-23T04:19:11.959Z",
+        "chat_id": "0c74df49-a756-4af1-aab8-5112834af5ce"
+      },
+      {
+        "id": "2745c6f8-7c1e-4f40-b7c1-be5ec518e04b",
+        "log_message": "Error occurred while logging message",
+        "created_at": "2023-09-22T21:01:26.721Z",
+        "updated_at": "2023-09-23T03:47:40.104Z",
+        "chat_id": "59dc82f6-8c99-4f56-b6c3-7a5478f3b5bc"
+      },
+      {
+        "id": "62f67ddf-c792-4d68-9072-4672c600b1c2",
+        "log_message": "Message received from user",
+        "created_at": "2023-09-23T15:55:46.623Z",
+        "updated_at": "2023-09-23T09:10:18.459Z",
+        "chat_id": "59dc82f6-8c99-4f56-b6c3-7a5478f3b5bc"
+      },
+      {
+        "id": "e240bb43-d9aa-49d2-9110-dc3722734d5d",
+        "log_message": "Message sent to user",
+        "created_at": "2023-09-23T07:14:47.610Z",
+        "updated_at": "2023-09-22T18:48:49.705Z",
+        "chat_id": "0c74df49-a756-4af1-aab8-5112834af5ce"
+      },
+      {
+        "id": "3ad24e36-907d-408b-a7c4-0288ae869dc5",
+        "log_message": "Chat session ended",
+        "created_at": "2023-09-22T21:59:38.084Z",
+        "updated_at": "2023-09-23T09:45:27.936Z",
+        "chat_id": "59dc82f6-8c99-4f56-b6c3-7a5478f3b5bc"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3634ff2b-b96d-4ea8-95d1-a2d82f8abb3f",
+        "email": "Skylar_Volkman@roq.tech",
+        "firstName": "Verna",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/235.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "71483d0a-662f-4a1f-80d9-991db30a5bfa",
+        "email": "Noelia_Strosin84@roq.tech",
+        "firstName": "Percival",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88688233-2637-4298-8c99-9b03c22c3ff2",
+        "email": "Florine.Rippin@roq.tech",
+        "firstName": "Kristin",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18001665",
+        "tenantId": null
+      },
+      {
+        "reference": "6f53c237-38fe-47b4-aab9-761fb7a03306",
+        "email": "Jeanette_Lang@roq.tech",
+        "firstName": "Flavie",
+        "lastName": "Lubowitz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56406585",
+        "tenantId": null
+      },
+      {
+        "reference": "14a2a0e3-0886-4059-89c6-6008421a56be",
+        "email": "Janelle9@roq.tech",
+        "firstName": "Ofelia",
+        "lastName": "Gislason-Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44199125",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "ed761873-495f-41dd-89a2-70998fa83537",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-23T00:59:31.987Z",
+        "updated_at": "2023-09-23T08:38:17.990Z"
+      },
+      {
+        "id": "d9bfa0a8-c757-4a5e-a7bd-6f6d378c9705",
+        "role_name": "user",
+        "description": "Regular user role",
+        "created_at": "2023-09-23T17:37:12.984Z",
+        "updated_at": "2023-09-23T00:18:43.899Z"
+      },
+      {
+        "id": "55363a14-0a45-4bce-be6c-00c7d4a067ab",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T18:34:55.035Z",
+        "updated_at": "2023-09-22T19:17:26.130Z"
+      },
+      {
+        "id": "85fded2e-2199-4375-b91a-b4e9ce1c728f",
+        "role_name": "guest",
+        "description": "Guest role",
+        "created_at": "2023-09-23T16:24:58.806Z",
+        "updated_at": "2023-09-23T04:42:10.927Z"
+      },
+      {
+        "id": "b7994f2f-bde9-40aa-8a21-341ef58d501f",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-22T23:21:20.626Z",
+        "updated_at": "2023-09-23T05:48:35.803Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "527d340b-15c7-4e0a-8904-514c89a1d7f4",
+        "created_at": "2023-09-23T00:05:30.854Z",
+        "updated_at": "2023-09-23T00:48:22.786Z",
+        "role_id": "55363a14-0a45-4bce-be6c-00c7d4a067ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c628c42f-357a-4bf0-aaed-cefb89a94294",
+        "created_at": "2023-09-23T14:09:47.061Z",
+        "updated_at": "2023-09-23T07:08:31.519Z",
+        "role_id": "d9bfa0a8-c757-4a5e-a7bd-6f6d378c9705",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40968d1a-a4ea-4350-a3ce-20c670dfebe0",
+        "created_at": "2023-09-23T13:55:38.416Z",
+        "updated_at": "2023-09-23T07:48:22.440Z",
+        "role_id": "55363a14-0a45-4bce-be6c-00c7d4a067ab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d04a340-48de-4ba9-b996-150444ae932b",
+        "created_at": "2023-09-22T21:50:49.684Z",
+        "updated_at": "2023-09-23T17:46:44.002Z",
+        "role_id": "85fded2e-2199-4375-b91a-b4e9ce1c728f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6a910b4-dc65-4f33-a194-d95602362938",
+        "created_at": "2023-09-23T12:39:26.858Z",
+        "updated_at": "2023-09-23T08:14:09.248Z",
+        "role_id": "ed761873-495f-41dd-89a2-70998fa83537",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "dac46db3-2af3-4cc6-8fd9-a5290d92f2f2",
+        "message": "Hello, how are you?",
+        "created_at": "2023-09-23T04:25:05.966Z",
+        "updated_at": "2023-09-23T17:24:33.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d0e7290-eae9-4f64-8a6f-20c123a4e3a3",
+        "message": "What are your plans for the weekend?",
+        "created_at": "2023-09-23T09:57:15.421Z",
+        "updated_at": "2023-09-23T12:51:52.299Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "123a850c-956b-47c9-bc8c-48924505e4ce",
+        "message": "I heard there's a new movie coming out",
+        "created_at": "2023-09-23T04:58:37.319Z",
+        "updated_at": "2023-09-23T10:19:13.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25f94cdd-6dd7-4583-bb3b-60a99ebcef58",
+        "message": "Do you have any recommendations for a good restaurant?",
+        "created_at": "2023-09-22T20:31:39.529Z",
+        "updated_at": "2023-09-22T19:27:15.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2aab1026-adf5-45bf-92d2-06b29fffa0e5",
+        "message": "I'm looking forward to the upcoming vacation",
+        "created_at": "2023-09-23T10:18:22.549Z",
+        "updated_at": "2023-09-23T09:58:29.670Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "00ed6fb0-da0f-4ddd-bae0-64e4ccd3c63b",
+        "log_message": "User joined the chat",
+        "created_at": "2023-09-23T07:52:59.174Z",
+        "updated_at": "2023-09-22T22:15:09.610Z",
+        "chat_id": "5d0e7290-eae9-4f64-8a6f-20c123a4e3a3"
+      },
+      {
+        "id": "b4722796-bc14-469a-899e-e0da4c3f582b",
+        "log_message": "User left the chat",
+        "created_at": "2023-09-23T03:26:28.443Z",
+        "updated_at": "2023-09-23T18:04:11.588Z",
+        "chat_id": "2aab1026-adf5-45bf-92d2-06b29fffa0e5"
+      },
+      {
+        "id": "0b97cc4c-0edd-4b63-85a9-ed0796e2832d",
+        "log_message": "Message sent successfully",
+        "created_at": "2023-09-23T01:13:37.418Z",
+        "updated_at": "2023-09-23T07:11:36.297Z",
+        "chat_id": "dac46db3-2af3-4cc6-8fd9-a5290d92f2f2"
+      },
+      {
+        "id": "eb14bc67-797a-47b7-997d-4ab6a05157eb",
+        "log_message": "Message failed to send",
+        "created_at": "2023-09-23T07:48:37.161Z",
+        "updated_at": "2023-09-23T13:38:56.344Z",
+        "chat_id": "2aab1026-adf5-45bf-92d2-06b29fffa0e5"
+      },
+      {
+        "id": "45034e77-7c56-4a63-94d9-33945003f546",
+        "log_message": "Chat room created",
+        "created_at": "2023-09-23T12:53:33.746Z",
+        "updated_at": "2023-09-23T09:20:47.882Z",
+        "chat_id": "25f94cdd-6dd7-4583-bb3b-60a99ebcef58"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b20471c7-cf42-4bf8-9b24-eac0045b2f78",
+        "email": "Adrien_Tromp7@roq.tech",
+        "firstName": "Xzavier",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/593.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d722938-5a19-4674-8242-d4dfb75a6d54",
+        "email": "Jadon.Prosacco@roq.tech",
+        "firstName": "Gloria",
+        "lastName": "Mraz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82452027",
+        "tenantId": null
+      },
+      {
+        "reference": "a04ff2ad-647f-44ea-910a-9f126d26c8b4",
+        "email": "Buddy30@roq.tech",
+        "firstName": "Burnice",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/78.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c53d33c6-9b9f-43a5-8b31-02c25b8ed5c6",
+        "email": "Nelle27@roq.tech",
+        "firstName": "Berenice",
+        "lastName": "Kautzer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13341060",
+        "tenantId": null
+      },
+      {
+        "reference": "08369294-f148-45d1-b22d-61fe646c5af2",
+        "email": "Loy27@roq.tech",
+        "firstName": "Jaime",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45789297",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "role": [
+      {
+        "id": "51912bb6-fa63-4bb1-bed3-870571e4cbb0",
+        "role_name": "admin",
+        "description": "Administrator role",
+        "created_at": "2023-09-22T22:43:37.084Z",
+        "updated_at": "2023-09-23T16:24:27.936Z"
+      },
+      {
+        "id": "ce033911-7ee5-4354-ae1d-aff4370bff71",
+        "role_name": "manager",
+        "description": "Manager role",
+        "created_at": "2023-09-23T01:44:34.384Z",
+        "updated_at": "2023-09-22T22:03:02.840Z"
+      },
+      {
+        "id": "f5c30140-d5bd-466f-b96f-44e8484df824",
+        "role_name": "employee",
+        "description": "Employee role",
+        "created_at": "2023-09-23T00:58:42.612Z",
+        "updated_at": "2023-09-23T01:19:14.212Z"
+      },
+      {
+        "id": "149196bc-833f-4368-8de3-4aec555fa6f8",
+        "role_name": "supervisor",
+        "description": "Supervisor role",
+        "created_at": "2023-09-23T10:32:44.849Z",
+        "updated_at": "2023-09-22T20:53:04.509Z"
+      },
+      {
+        "id": "138484d6-ca40-41d1-bfaa-5be196bb5a04",
+        "role_name": "team_lead",
+        "description": "Team Lead role",
+        "created_at": "2023-09-23T03:55:14.822Z",
+        "updated_at": "2023-09-23T04:27:06.562Z"
+      }
+    ],
+    "user_role": [
+      {
+        "id": "6a73a9e7-71f1-4d9a-9958-6603a6a04ab0",
+        "created_at": "2023-09-23T16:51:44.073Z",
+        "updated_at": "2023-09-23T18:35:03.515Z",
+        "role_id": "138484d6-ca40-41d1-bfaa-5be196bb5a04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f256f166-5eda-4164-a902-d9be3af588d5",
+        "created_at": "2023-09-22T22:49:58.603Z",
+        "updated_at": "2023-09-23T14:31:27.868Z",
+        "role_id": "f5c30140-d5bd-466f-b96f-44e8484df824",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dde65fb2-586e-4ee6-988e-a1fb5ffee113",
+        "created_at": "2023-09-23T05:48:35.388Z",
+        "updated_at": "2023-09-23T13:01:10.687Z",
+        "role_id": "ce033911-7ee5-4354-ae1d-aff4370bff71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7de0f0aa-f8e2-47b5-a31e-77ecbe1db5b4",
+        "created_at": "2023-09-22T22:01:29.748Z",
+        "updated_at": "2023-09-23T01:20:39.701Z",
+        "role_id": "149196bc-833f-4368-8de3-4aec555fa6f8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ccad689-baef-4554-a62e-375c4fd3cc84",
+        "created_at": "2023-09-22T20:02:32.053Z",
+        "updated_at": "2023-09-23T15:21:29.496Z",
+        "role_id": "51912bb6-fa63-4bb1-bed3-870571e4cbb0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat": [
+      {
+        "id": "b9649bb7-df10-4639-90b7-57074682de10",
+        "message": "Hello",
+        "created_at": "2023-09-23T11:29:03.107Z",
+        "updated_at": "2023-09-23T03:17:29.556Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8a7b5d2-de81-43d4-a50c-e42a5e179f1d",
+        "message": "How are you?",
+        "created_at": "2023-09-22T23:45:24.075Z",
+        "updated_at": "2023-09-23T13:45:41.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17e39b98-2340-4169-9cff-3f4be0b455a6",
+        "message": "Nice to meet you",
+        "created_at": "2023-09-23T14:47:15.567Z",
+        "updated_at": "2023-09-22T20:06:44.057Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ac74646-06c8-49e2-8268-b54ea94daee0",
+        "message": "What's your favorite color?",
+        "created_at": "2023-09-23T14:08:28.032Z",
+        "updated_at": "2023-09-23T13:48:43.263Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b53782a6-458b-4576-965c-7dcc384ed371",
+        "message": "Do you like pizza?",
+        "created_at": "2023-09-22T22:00:24.889Z",
+        "updated_at": "2023-09-23T00:14:46.674Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "chat_log": [
+      {
+        "id": "9daff541-3aef-41f9-9d6c-967ac0c8c404",
+        "log_message": "Message logged successfully",
+        "created_at": "2023-09-23T07:48:43.689Z",
+        "updated_at": "2023-09-23T16:01:21.772Z",
+        "chat_id": "5ac74646-06c8-49e2-8268-b54ea94daee0"
+      },
+      {
+        "id": "82bd798f-1494-444c-8590-f25438262e59",
+        "log_message": "Error in logging message",
+        "created_at": "2023-09-23T06:29:24.257Z",
+        "updated_at": "2023-09-23T05:52:37.162Z",
+        "chat_id": "b9649bb7-df10-4639-90b7-57074682de10"
+      },
+      {
+        "id": "43112072-aad6-4bea-9a1b-91817e9f7904",
+        "log_message": "Message received",
+        "created_at": "2023-09-23T01:28:52.943Z",
+        "updated_at": "2023-09-23T15:51:04.298Z",
+        "chat_id": "a8a7b5d2-de81-43d4-a50c-e42a5e179f1d"
+      },
+      {
+        "id": "ca8766c4-5ee1-4e6b-8395-b365f55ee7d3",
+        "log_message": "Message sent",
+        "created_at": "2023-09-23T08:16:23.225Z",
+        "updated_at": "2023-09-23T11:13:17.887Z",
+        "chat_id": "5ac74646-06c8-49e2-8268-b54ea94daee0"
+      },
+      {
+        "id": "1baee1bd-0960-4966-a720-bfe1d04390ef",
+        "log_message": "Message deleted",
+        "created_at": "2023-09-22T18:50:46.078Z",
+        "updated_at": "2023-09-23T11:04:06.938Z",
+        "chat_id": "a8a7b5d2-de81-43d4-a50c-e42a5e179f1d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8fdf45d4-10b9-4937-bf7c-a4928e9cce6f",
+        "email": "Rahsaan.Jenkins@roq.tech",
+        "firstName": "Connie",
+        "lastName": "Gibson-Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6370528",
+        "tenantId": null
+      },
+      {
+        "reference": "8277e934-5107-418c-afa7-26a1a4d0c533",
+        "email": "Jared_Halvorson@roq.tech",
+        "firstName": "Lora",
+        "lastName": "Wisozk",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/585.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b53fbc5-93b3-432c-995e-6b630c4ea081",
+        "email": "Leanne73@roq.tech",
+        "firstName": "Joel",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/200.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb340961-effc-48a0-aacb-56634c446d14",
+        "email": "Laverne77@roq.tech",
+        "firstName": "River",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8c23a15c-ea84-4445-89a6-3786d18399dd",
+        "email": "Carli30@roq.tech",
+        "firstName": "Margarette",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/711.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
